@@ -22,6 +22,18 @@
     gap: 1rem;
 }
 
+.flex{
+    display: flex;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.grid{
+    display: grid;
+}
+
 .container{
     --max-width:375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
@@ -35,7 +47,7 @@
     }
 
     .desktop-only{
-        display: initial;
+        display: initial; /*QUANDO ESTIVER EM MODO SCREEN VAI APARECER*/
     }
 
     .even-columns{   /*QUANDO EM TELA GRANDE UM AO LADO DO OUTRO*/

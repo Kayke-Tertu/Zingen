@@ -36,10 +36,10 @@
     --fs-xl:1.5rem;
     --fs-2xl:2.5rem;
 
+    --px-lg:1.5rem; /*(px) padding lateral*/
     --py-base:1rem; 
     --py-lg:1.5rem; /* (py) padding no eixo y*/
     --py-xl:3rem;
-    --px-lg:1.5rem; /*(px) padding lateral*/
 
 
 }
