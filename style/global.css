@@ -36,6 +36,12 @@
     --fs-xl:1.5rem;
     --fs-2xl:2.5rem;
 
+    --py-base:1rem; 
+    --py-lg:1.5rem; /* (py) padding no eixo y*/
+    --py-xl:3rem;
+    --px-lg:1.5rem; /*(px) padding lateral*/
+
+
 }
 
 html{  /*adicionando as fontes padrão de todo nosso documento*/
@@ -78,10 +84,15 @@ ul[role="list"]{
     list-style: none;
 }
 
-@media (width >= 80em){ /*quando a tela do nosso site for igual ou mair*/
+@media (width >= 80em/*1280px*/){ /*quando a tela do nosso site for igual ou mair*/
     :root{
         --fs-large:2rem; 
         --fs-xl:3rem;
         --fs-2xl:4rem;
+
+        --py-base:1.5rem; 
+        --py-lg:2.5rem; /* (py) padding no eixo y*/
+        --py-xl:5rem;
+        --px-lg:2rem;
     }
 }

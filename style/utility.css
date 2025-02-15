@@ -1,0 +1,46 @@
+.py-base{
+    padding-block: var(--py-base) ; /*define o padding do eixo vertical X*/
+}
+
+.py-lg{
+    padding-block: var(--py-lg) ; /*define o padding do eixo vertical X*/
+}
+.py-xl{
+    padding-block: var(--py-xl) ; /*define o padding do eixo vertical X*/
+}
+
+.px-lg{
+    padding-inline: var(--px-lg);  /*paddding lateral aplicase no eixo y*/
+}
+
+.desktop-only{  /*quando tiver essa classe no modo mobile não vai aparecer*/
+    display: none;
+}
+
+.even-columns{ /*colunas costante (E QUANDO EM TELA PEQUENA UM ABAIXO DO OUTRO*/
+    display: grid;
+    gap: 1rem;
+}
+
+.container{
+    --max-width:375px;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    border: violet solid;
+    margin-inline: auto ;
+}
+
+@media (width >= 80em){
+    .container{
+        --max-width:80rem; /*1280px*/
+    }
+
+    .desktop-only{
+        display: initial;
+    }
+
+    .even-columns{   /*QUANDO EM TELA GRANDE UM AO LADO DO OUTRO*/
+        grid-auto-flow: column;   
+        grid-auto-columns: 1fr;
+    }
+
+}
