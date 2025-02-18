@@ -26,7 +26,8 @@
     #hero{
 
         background: url(../assets/icons/bg-hero-desktop.svg) no-repeat bottom center/contain;
-        padding-bottom: 30rem;   /*estica a imagem fazendo com que ela fique no site inteiro*/
+        padding-bottom: 20rem;   /*estica a imagem fazendo com que ela fique no site inteiro*/
+        width: 100%;
 
         & img[src*="music"]{     /*SELETOR PARA IMAGENS PERFEITO*/
             width: 20.75rem;
