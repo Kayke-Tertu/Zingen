@@ -51,6 +51,7 @@ html{  /*adicionando as fontes padrão de todo nosso documento*/
     line-height: 1.6;
     color: var(--text-color-primary);
     overflow-x: hidden;  /*para nao ter trasbordamento no eixo x*/
+    scroll-behavior: smooth;
 }
 
 body{
