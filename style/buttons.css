@@ -53,7 +53,7 @@
         content: ""; /*conteudo vazio*/
         position: absolute;
         border-radius: inherit; /*erda a borda do botão*/
-        inset: 1.5px;
+        inset: 1px;
         background-color: var(--bg-color);
     }
     &::after{  /*cria um elemento dentro do aria-label*/
