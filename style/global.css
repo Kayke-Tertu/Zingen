@@ -94,6 +94,11 @@ ul[role="list"]{
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+    display: inline-block;
+}
+
 @media (width >= 80em/*1280px*/){ /*quando a tela do nosso site for igual ou mair*/
     :root{
         --fs-large:2rem; 
