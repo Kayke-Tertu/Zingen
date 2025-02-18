@@ -50,6 +50,7 @@ html{  /*adicionando as fontes padrão de todo nosso documento*/
     font-size: var(--fs-base);
     line-height: 1.6;
     color: var(--text-color-primary);
+    overflow-x: hidden;  /*para nao ter trasbordamento no eixo x*/
 }
 
 body{
