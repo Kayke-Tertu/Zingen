@@ -56,6 +56,7 @@ html{  /*adicionando as fontes padrão de todo nosso documento*/
 
 body{
     background-color: var(--bg-color);
+    overflow-x: hidden;  /*para nao ter trasbordamento no eixo x*/
 }
 
 h1, h2, h3{
